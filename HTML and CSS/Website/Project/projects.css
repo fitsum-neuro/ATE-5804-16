@@ -440,16 +440,13 @@ table{
 margin-top:1%;
  position: absolute;
  z-index: 2;
- transform: translate(-50%,-50%);
- width: 95.8%; 
-
+ width: 95.8%;
  border-collapse: collapse;
  border-spacing: 0;
  box-shadow: 0 2px 15px rgba(64,64,64,.7);
  border-radius: 12px 12px 0 0;
  overflow: hidden;
 border-radius: 8px;
-
 }
 td , th{
  padding: 15px 20px;
