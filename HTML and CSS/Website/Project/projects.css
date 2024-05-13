@@ -438,7 +438,7 @@ color: #016397;
 
 table{
 margin-top:1%;
- position: absolute;
+ position: relative;
  z-index: 2;
  width: 95.8%;
  border-collapse: collapse;
