@@ -374,135 +374,135 @@ a {
   margin-top: 10%;
 }
   /*footer*/
-  @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
 
-  * {
-    font-family: Open Sans;
-  }
+* {
+  font-family: Open Sans;
+}
+
+ .footer-last{
+  background: #ebf6f9;
+ margin-top: 10%;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 55px 50px;
+  display: block;
+  height: 70%;
   
-  .footer-last{
-    background: #ebf6f9;
-   
-    box-sizing: border-box;
-    width: 100%;
-    text-align: left;
-    font: bold 16px sans-serif;
-    padding: 55px 50px;
-    display: block;
+}
+
+.footer-last .footer-left,
+.footer-last .footer-center,
+{
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+
+
+/* The company logo */
+
+.footer-last h3{
+  color:  black;
+  font: normal 36px 'Open Sans', cursive;
+  margin: 0;
+}
+
+.footer-last h3 span{
+  color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-last .footer-links{
+  color:  black;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-last .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-last .footer-club-name{
+  color:  #222;
+  font-size: 14px;
+  font-weight: normal;
+  margin: 0;
+}
+
+
+.footer-last .footer-center{
+  width: 35%;
+}
+.footer-club-name{
+    margin-bottom: -20%;
+}
+
+.footer-center{
+    margin-top:- 30%;
+    margin-left: 75%;
+
+}
+.footer-left{
+    margin-bottom: -10%;
+}
+
+.footer-last .footer-center p{
+  display: inline-block;
+  color: black;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-last .footer-links{
+    margin-left:50% ;
+}
+
+.footer-last .footer-center p a{
+  color:  lightseagreen;
+  text-decoration: none;;
+}
+.footer-links a{
+    display: flex;
     
-  }
-  
-  .footer-last .footer-left,
-  .footer-last .footer-center
-  {
-    display: inline-block;
-    vertical-align: top;
-  }
-  
-  /* Footer left */
-  
-  
-  
-  /* The company logo */
-  
-  .footer-last h3{
-    color:  black;
-    font: normal 36px 'Open Sans', cursive;
-    margin: 0;
-  }
-  
-  .footer-last h3 span{
-    color:  lightseagreen;
-  }
-  
-  /* Footer links */
-  
-  .footer-last .footer-links{
-    color:  black;
-    margin: 20px 0 12px;
-    padding: 0;
-  }
-  
-  .footer-last .footer-links a{
-    display:inline-block;
-    line-height: 1.8;
-    font-weight:400;
-    text-decoration: none;
-    color:  inherit;
-  }
-  
-  .footer-last .footer-club-name{
-    color:  #222;
-    font-size: 14px;
-    font-weight: normal;
-    margin: 0;
-  }
-  
-  
-  .footer-last .footer-center{
-    width: 35%;
-  }
-  .footer-club-name{
-      margin-bottom: -20%;
-  }
-  
-  .footer-center{
-      margin-top:- 30%;
-      margin-left: 75%;
-  
-  }
-  .footer-left{
-      margin-bottom: -10%;
-  }
-  
-  .footer-last .footer-center p{
-    display: inline-block;
-    color: black;
-    font-weight:400;
-    vertical-align: middle;
-    margin:0;
-  }
-  
-  .footer-last .footer-links{
-      margin-left:50% ;
-  }
-  
-  .footer-last .footer-center p a{
-    color:  lightseagreen;
-    text-decoration: none;;
-  }
-  .footer-links a{
-      display: flex;
-      
-  }
-  
-  .footer-last .footer-links a:before {
-    content: "|";
-    font-weight:300;
-    font-size: 20px;
-    left: 0;
-    color: black;
-    display: inline-block;
-    padding-right: 5px;
-  }
-  
-  .footer-last .footer-links:before {
-    content: none;
-  }
-  
-  /* Footer Right */
-  
-  .footer-last .footer-right{
-    width: 20%;
-  }
-  
-  
-  .footer-left img{
-      width: 100px;
-      margin-bottom: -5%;
-  }
-  .line{
-      
-      margin-left: 50%;
-  }
-  
+}
+
+.footer-last .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: black;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-last .footer-links:before {
+  content: none;
+}
+
+/* Footer Right */
+
+.footer-last .footer-right{
+  width: 20%;
+}
+
+
+.footer-left img{
+    width: 100px;
+    margin-bottom: -5%;
+}
+.line{
+    
+    margin-left: 50%;
+}
