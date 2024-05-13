@@ -581,7 +581,7 @@ tr:nth-child(odd){
   font-family: Open Sans;
 }
 
-footer .footer-last{
+.footer-last{
   background: #ebf6f9;
  margin-top: 10%;
   box-sizing: border-box;
